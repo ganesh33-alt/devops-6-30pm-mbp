@@ -9,7 +9,7 @@ pipeline{
        echo "scm .........."
      }
    }
-   stage("main1"){
+   stage("main"){
     when{
       branch "main"
     }
